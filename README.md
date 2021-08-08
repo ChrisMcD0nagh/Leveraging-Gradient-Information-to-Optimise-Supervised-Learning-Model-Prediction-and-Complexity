@@ -6,5 +6,5 @@
 
 ## Ridge-Gradients regularisation method
 [Ridge-Gradients regularisation example.ipynb](Regularising%20regression%20with%20gradients/Ridge-Gradient%20regularisation%20example.ipynb)
-<img  src="ABC_example/beta_versus_betarg_rmse.png" width="340" align="left" />
-<img  src="ABC_example/beta_versus_betarg_diff.png" width="340" align="right" />
+<img  src="Regularising%20regression%20with%20gradients/beta_versus_betarg_rmse.png" width="340" align="left" />
+<img  src="Regularising%20regression%20with%20gradients/beta_versus_betarg_diff.png" width="340" align="right" />
