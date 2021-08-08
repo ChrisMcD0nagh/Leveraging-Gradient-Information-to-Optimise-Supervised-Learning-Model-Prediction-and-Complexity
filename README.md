@@ -6,15 +6,6 @@
 
 
 ## Ridge-Gradients regularisation method
-[Ridge-Gradients regularisation example.ipynb](Regularising%20regression%20with%20gradients/Ridge-Gradient%20regularisation%20example.ipynb) demonstrates the Ridge-Gradients regularisation method for linear regression. The Ridge-Gradient method levearges derivatives of the target varaible with respect to model inputs to improve model accuracy relative to standard Ridge regularisation. 
-
-$$
-\min_{\hat{\boldsymbol{\beta}}} \ \ (y - \hat{y})^2 + \lambda_1 \hat{\boldsymbol{\beta}}^2 + \lambda_2 (\boldsymbol{\hat{\beta}} - \boldsymbol{\hat{\beta}_{grad}})^2
-$$
-
-$$
-\boldsymbol{\hat{\beta}_{rg}} = (X'X + \lambda_1 I + \lambda_2 I)^{-1} (\lambda_2 \ \boldsymbol{\hat{\beta}_{grad}} + X'y)
-$$
-
+[Ridge-Gradients regularisation example.ipynb](Regularising%20regression%20with%20gradients/Ridge-Gradient%20regularisation%20example.ipynb) demonstrates the Ridge-Gradients regularisation method for linear regression. The Ridge-Gradient method levearges derivatives of the target varaible with respect to model inputs to improve model accuracy relative to standard Ridge regularisation. The left figure compares the test RMSE of a linear model fit with OLS with Ridge regularisation and OLS with Ridge-Gradients regularisation over varying training sizes. The right figure shows the percentage difference between the models performance (positive difference indicates Ridge-Gradient method outperfoms).
 <img  src="Regularising%20regression%20with%20gradients/beta_versus_betarg_rmse.png" width="340" align="left" />
 <img  src="Regularising%20regression%20with%20gradients/beta_versus_betarg_diff.png" width="340" align="right" />
