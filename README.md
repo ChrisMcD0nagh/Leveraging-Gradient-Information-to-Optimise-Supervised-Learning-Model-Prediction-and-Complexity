@@ -12,6 +12,9 @@
 <img  src="Regularising%20regression%20with%20gradients/beta_versus_betarg_rmse.png" width="340" align="left" />
 <img  src="Regularising%20regression%20with%20gradients/beta_versus_betarg_diff.png" width="340" align="right" />
 
+
+<br />
+<br />
 ## Leveraging gradients for surrogate modelling 
 ### 2D toy problem
 ### 4D GARCH problem
