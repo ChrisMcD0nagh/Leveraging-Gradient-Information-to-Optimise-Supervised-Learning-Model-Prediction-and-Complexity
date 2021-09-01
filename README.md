@@ -37,10 +37,19 @@ This repository contains example code that shows how surrogatae training and eva
 <br />
 <br />
 <br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
 <img  src="Surrogate%20modelling/2D/2d_MLE_diff_55.png" width="340" align="left" />
 <img  src="Surrogate%20modelling/2D/2d_MH_diff_55.png" width="340" align="left" />
 
+<br />
+<br />
+<br />
 <br />
 <br />
 <br />
