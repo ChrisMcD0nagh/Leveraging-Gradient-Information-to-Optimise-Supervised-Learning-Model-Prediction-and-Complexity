@@ -26,5 +26,7 @@
 ### 2D toy problem
 ### 4D GARCH problem
 
+Trained models can be found in the [public google drive](https://drive.google.com/drive/folders/1J7srZbZPS6UhE43GFXP3Gkd3TmEvT-6f?usp=sharing) **MOVE FOLDERS IN TO PUBLIC**
+
 ## Tuning model complexity
 ### Determining complexity upper bound
