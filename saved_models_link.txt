@@ -1,0 +1,7 @@
+=====================================================================================================
+Leveraging Gradient Information to Optimise Supervised Learning Model Prediction and Complexity
+=====================================================================================================
+Saved surrogate models for the 2D, 4D and 8D toy problem can be found in the public Google drive:
+
+https://drive.google.com/drive/folders/1J7srZbZPS6UhE43GFXP3Gkd3TmEvT-6f?usp=sharing
+=====================================================================================================
