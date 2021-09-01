@@ -29,11 +29,14 @@ This repository contains example code that shows how surrogatae training and eva
 ### 2D toy problem
 [2D_surrogate_AccTest_nTrain50_EXAMPLE.ipynb](Surrogate%20modelling/2D/2D_surrogate_AccTest_nTrain50_EXAMPLE.ipynb)
 
+<img  src="Surrogate%20modelling/2D/2d_complexity.png" width="340" align="left" />
+
+
 [MLE and MH latent parameter inference 2D problem.ipynb](Surrogate%20modelling/2D/MLE%20and%20MH%20latent%20paramater%20inference%202D%20problem.ipynb)
 
-<img  src="Surrogate%20modelling/2D/2d_complexity.png" width="340" align="left" />
+
 <img  src="Surrogate%20modelling/2D/2d_MLE_diff_55.png" width="340" align="left" />
-<img  src="Surrogate%20modelling/2D/2d_MH_diff_55.png" width="340" align="left" />
+<img  src="Surrogate%20modelling/2D/2d_MH_diff_55.png" width="340" align="right" />
 
 ### 4D GARCH problem
 
