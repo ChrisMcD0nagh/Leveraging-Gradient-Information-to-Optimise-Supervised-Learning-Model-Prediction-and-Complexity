@@ -25,3 +25,5 @@
 ## Leveraging gradients for surrogate modelling 
 ### 2D toy problem
 ### 4D GARCH problem
+
+## Tuning model complexity
