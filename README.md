@@ -23,10 +23,13 @@
 <br />
 
 ## Leveraging gradients for surrogate modelling 
-### 2D toy problem
-### 4D GARCH problem
+Full code for all experiments along with saved models can be found in the [public google drive](https://drive.google.com/drive/folders/1J7srZbZPS6UhE43GFXP3Gkd3TmEvT-6f?usp=sharing) **MOVE FOLDERS IN TO PUBLIC**
 
-Trained models can be found in the [public google drive](https://drive.google.com/drive/folders/1J7srZbZPS6UhE43GFXP3Gkd3TmEvT-6f?usp=sharing) **MOVE FOLDERS IN TO PUBLIC**
+This repository contains example code that shows how surrogatae training and evaluation was conducted along with latent parameter inference code.
+### 2D toy problem
+[2D_surrogate_AccTest_nTrain50_EXAMPLE.ipynb](Surrogate%20modelling/2D/2D_surrogate_AccTest_nTrain50_EXAMPLE.ipynb)
+
+### 4D GARCH problem
 
 ## Tuning model complexity
 ### Determining complexity upper bound
