@@ -27,3 +27,4 @@
 ### 4D GARCH problem
 
 ## Tuning model complexity
+### Determining complexity upper bound
