@@ -34,9 +34,16 @@ This repository contains example code that shows how surrogatae training and eva
 
 [MLE and MH latent parameter inference 2D problem.ipynb](Surrogate%20modelling/2D/MLE%20and%20MH%20latent%20paramater%20inference%202D%20problem.ipynb) contains the code used to utilise the surrogate models in an inference pipeline under Maximum likelihood estimation and Metropolis-Hastings sampling. Results are discussed in Section 3.2.2 and principally show improved latent parameter estimation using gradient traing surrogates for small smaple sizes.
 
+<br />
+<br />
+<br />
 
 <img  src="Surrogate%20modelling/2D/2d_MLE_diff_55.png" width="340" align="left" />
 <img  src="Surrogate%20modelling/2D/2d_MH_diff_55.png" width="340" align="right" />
+
+<br />
+<br />
+<br />
 
 ### 4D GARCH problem
 
