@@ -28,7 +28,7 @@ Full code for all experiments along with saved models can be found in the [publi
 This repository contains example code that shows how surrogatae training and evaluation was conducted along with latent parameter inference code.
 ### 2D toy problem
 
-[2D_generate_data.ipynb](Toy%20problems/2D/2D_generate_data.ipynb) generates data from the 2D process presented in Section 3.2.1 which is saved in [2D_data](Surrogate%20modelling/2D/2D_data).
+[2D_generate_data.ipynb](Toy%20problems/2D/2D_generate_data.ipynb) generates data from the 2D process presented in Section 3.2.1 which is saved in [2ddata](Surrogate%20modelling/2D/2d_data).
 
 [2D_surrogate_AccTest_nTrain50_EXAMPLE.ipynb](Toy%20problems/2D/2D_surrogate_AccTest_nTrain50_EXAMPLE.ipynb) contains the code used to train and evaluate surrogate model accuracy, comparing the performance of neural networks trained with and without gradients. The results are discussed in Section 3.2 and show gradient trained surrogates are more accurate for small sample sizes and low model complexities. 
 
@@ -60,6 +60,9 @@ This repository contains example code that shows how surrogatae training and eva
 <br />
 
 ### 4D GARCH problem
+
+[4D_generate_data.ipynb](Toy%20problems/4D/4D_generate_data.ipynb) generates data from the 4D process presented in Section 3.3.1 which is saved in [4d_data](Surrogate%20modelling/4D/4d_data).
+
 [4D_surrogate_AccTest_nTrain100_EXAMPLE.ipynb](Toy%20problems/4D/4D_surrogate_AccTest_nTrain100_EXAMPLE.ipynb) contains the code used to train and evaluate surrogate model accuracy, comparing the performance of neural networks trained with and without gradients. The results are discussed in Section 3.3 and show gradient trained surrogates are more accurate for small sample sizes and low model complexities. 
 
 <img  src="Toy%20problems/4D/4d_complexity.png" width="340" align="left" />
