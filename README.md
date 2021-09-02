@@ -23,14 +23,14 @@
 <br />
 
 ## Leveraging gradients for surrogate modelling 
-Full code for all experiments along with saved models can be found in the [public google drive](https://drive.google.com/drive/folders/1J7srZbZPS6UhE43GFXP3Gkd3TmEvT-6f?usp=sharing) **MOVE FOLDERS IN TO PUBLIC**
+Full code for all experiments along with saved models can be found in the [public google drive](https://drive.google.com/drive/folders/1J7srZbZPS6UhE43GFXP3Gkd3TmEvT-6f?usp=sharing)
 
 This repository contains example code that shows how surrogatae training and evaluation was conducted along with latent parameter inference code.
 ### 2D toy problem
 
-[2D_generate_data.ipynb](Surrogate%20modelling/2D/2D_generate_data.ipynb) generates data from the 2D process presented in Section 3.2.1 which is saved in [2D_data](Surrogate%20modelling/2D/2D_data).
+[2D_generate_data.ipynb](Toy%20problems/2D/2D_generate_data.ipynb) generates data from the 2D process presented in Section 3.2.1 which is saved in [2D_data](Surrogate%20modelling/2D/2D_data).
 
-[2D_surrogate_AccTest_nTrain50_EXAMPLE.ipynb](Surrogate%20modelling/2D/2D_surrogate_AccTest_nTrain50_EXAMPLE.ipynb) contains the code used to train and evaluate surrogate model accuracy, comparing the performance of neural networks trained with and without gradients. The results are discussed in Section 3.2 and show gradient trained surrogates are more accurate for small sample sizes and low model complexities. 
+[2D_surrogate_AccTest_nTrain50_EXAMPLE.ipynb](Toy%20problems/2D/2D_surrogate_AccTest_nTrain50_EXAMPLE.ipynb) contains the code used to train and evaluate surrogate model accuracy, comparing the performance of neural networks trained with and without gradients. The results are discussed in Section 3.2 and show gradient trained surrogates are more accurate for small sample sizes and low model complexities. 
 
 <img  src="Toy%20problems/2D/2d_complexity.png" width="340" align="left" />
 
@@ -44,7 +44,7 @@ This repository contains example code that shows how surrogatae training and eva
 <br />
 <br />
 
-[MLE and MH latent parameter inference 2D problem.ipynb](Surrogate%20modelling/2D/MLE%20and%20MH%20latent%20paramater%20inference%202D%20problem.ipynb) contains the code used to utilise the surrogate models in an inference pipeline under Maximum likelihood estimation and Metropolis-Hastings sampling. Results are discussed in Section 3.2.2 and principally show improved latent parameter estimation using gradient traing surrogates for small smaple sizes.
+[MLE and MH latent parameter inference 2D problem.ipynb](Toy%20problems/2D/MLE%20and%20MH%20latent%20paramater%20inference%202D%20problem.ipynb) contains the code used to utilise the surrogate models in an inference pipeline under maximum likelihood estimation and Metropolis-Hastings sampling. Results are discussed in Section 3.2.2 and principally show improved latent parameter estimation using gradient traing surrogates for small smaple sizes.
 
 <img  src="Toy%20problems/2D/2d_MLE_diff_55.png" width="340" align="left" />
 <img  src="Toy%20problems/2D/2d_MH_diff_55.png" width="340" align="left" />
@@ -60,6 +60,34 @@ This repository contains example code that shows how surrogatae training and eva
 <br />
 
 ### 4D GARCH problem
+[4D_surrogate_AccTest_nTrain100_EXAMPLE.ipynb](Toy%20problems/4D/4D_surrogate_AccTest_nTrain100_EXAMPLE.ipynb) contains the code used to train and evaluate surrogate model accuracy, comparing the performance of neural networks trained with and without gradients. The results are discussed in Section 3.3 and show gradient trained surrogates are more accurate for small sample sizes and low model complexities. 
+
+<img  src="Toy%20problems/4D/4d_complexity.png" width="340" align="left" />
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+[garch_s&p_nTrain100.ipynb](Toy%20problems/4D/garch_s%26p_nTrain100.ipynb) contains the code used to utilise the surrogate models in an inference pipeline under maximum likelihood estimation to estimate S&P 500 daily volatility. Results are discussed in Section 3.3.3 and show improved latent parameter estimation using gradient traing surrogates for small smaple sizes.
+
+<img  src="Toy%20problems/4D/2d_MLE_diff_55.png" width="340" align="left" />
+<img  src="Toy%20problems/4D/rolling_test_pred_t%2B5_nTrain100.png" width="340" align="left" />
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
 ## Tuning model complexity
 ### Determining complexity upper bound
