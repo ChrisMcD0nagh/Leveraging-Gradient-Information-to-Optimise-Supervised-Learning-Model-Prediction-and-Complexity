@@ -91,3 +91,6 @@ This repository contains example code that shows how surrogatae training and eva
 
 ## Tuning model complexity
 ### Determining complexity upper bound
+[Optimsing model complexity with gradient information.ipynb](Tuning%20model%20complexity/Optimising%20model%20complexity%20with%20gradient%20information.ipynb) presents the code used to compute the delta-min metric to determine an upperbound for neural networkw complexity, as discussed in Section 4.1.
+
+
