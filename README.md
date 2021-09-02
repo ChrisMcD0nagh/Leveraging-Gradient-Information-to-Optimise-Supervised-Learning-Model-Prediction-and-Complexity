@@ -97,15 +97,6 @@ This repository contains example code that shows how surrogatae training and eva
 [Optimsing model complexity with gradient information.ipynb](Tuning%20model%20complexity/Optimising%20model%20complexity%20with%20gradient%20information.ipynb) presents the code used to compute the delta-min metric to determine an upperbound for neural networkw complexity, as discussed in Section 4.1.
 
 <img  src="Toy%20problems/2D/2d_UB.png" width="340" align="left" />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
 <img  src="Toy%20problems/4D/4d_UB.png" width="340" align="left" />
 <br />
 <br />
