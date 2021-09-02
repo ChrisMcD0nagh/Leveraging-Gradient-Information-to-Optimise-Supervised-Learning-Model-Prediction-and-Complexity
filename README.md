@@ -32,7 +32,7 @@ This repository contains example code that shows how surrogatae training and eva
 
 [2D_surrogate_AccTest_nTrain50_EXAMPLE.ipynb](Surrogate%20modelling/2D/2D_surrogate_AccTest_nTrain50_EXAMPLE.ipynb) contains the code used to train and evaluate surrogate model accuracy, comparing the performance of neural networks trained with and without gradients. The results are discussed in Section 3.2 and show gradient trained surrogates are more accurate for small sample sizes and low model complexities. 
 
-<img  src="Surrogate%20modelling/2D/2d_complexity.png" width="340" align="left" />
+<img  src="Toy%20problems/2D/2d_complexity.png" width="340" align="left" />
 
 <br />
 <br />
@@ -46,8 +46,8 @@ This repository contains example code that shows how surrogatae training and eva
 
 [MLE and MH latent parameter inference 2D problem.ipynb](Surrogate%20modelling/2D/MLE%20and%20MH%20latent%20paramater%20inference%202D%20problem.ipynb) contains the code used to utilise the surrogate models in an inference pipeline under Maximum likelihood estimation and Metropolis-Hastings sampling. Results are discussed in Section 3.2.2 and principally show improved latent parameter estimation using gradient traing surrogates for small smaple sizes.
 
-<img  src="Surrogate%20modelling/2D/2d_MLE_diff_55.png" width="340" align="left" />
-<img  src="Surrogate%20modelling/2D/2d_MH_diff_55.png" width="340" align="left" />
+<img  src="Toy%20problems/2D/2d_MLE_diff_55.png" width="340" align="left" />
+<img  src="Toy%20problems/2D/2d_MH_diff_55.png" width="340" align="left" />
 
 <br />
 <br />
