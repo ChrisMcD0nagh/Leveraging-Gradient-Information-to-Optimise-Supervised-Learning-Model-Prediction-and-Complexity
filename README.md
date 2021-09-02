@@ -98,7 +98,7 @@ This repository contains example code that shows how surrogatae training and eva
 
 <img  src="Toy%20problems/2D/2d_UB.png" width="340" align="left" />
 <img  src="Toy%20problems/4D/4d_UB.png" width="340" align="left" />
-<img  src="Toy%20problems/8D/8d_UB.png" width="340" align="right" />
+<img  src="Toy%20problems/8D/8d_UB.png" width="340" align="center" />
 
 <br />
 <br />
