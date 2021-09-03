@@ -93,7 +93,7 @@ This repository contains example code that shows how surrogatae training and eva
 <br />
 
 ### 8D problem
-[generate_data_8D.ipynb](Toy%20problems/8D/generate_data_8D.ipynb) generates data from the 8D process presented in Section 4.1.1 which is saved in [8d_data](Toy%20problems/8D/8d_data).
+[generate_data_8D.ipynb](Toy%20problems/8D/generate_data_8D.ipynb) generates data from the 8D process presented in Section 4.1.1 which is saved in [8d_data](Toy%20problems/8D/8D_data).
 
 [8D_surrogate_AccTest_nTrain2500_EXAMPLE.ipynb](Toy%20problems/8D/8D_surrogate_AccTest_nTrain2500_EXAMPLE.ipynb) contains the code used to train and evaluate  model accuracy. The 8D model is used in addition to the 2D and 4D models to support the delta-min metric discussed in Section 4.1. 
 
