@@ -77,7 +77,7 @@ This repository contains example code that shows how surrogatae training and eva
 <br />
 <br />
 
-[garch_s&p_nTrain100.ipynb](Toy%20problems/4D/garch_s%26p_nTrain100.ipynb) contains the code used to utilise the surrogate models in an inference pipeline under maximum likelihood estimation to estimate S&P 500 daily volatility. Results are discussed in Section 3.3.3 and show improved latent parameter estimation using gradient traing surrogates for small smaple sizes.
+[garch_s&p_nTrain100.ipynb](Toy%20problems/4D/garch_s%26p_nTrain100.ipynb) contains the code used to utilise the surrogate models in an inference pipeline under maximum likelihood estimation to estimate S&P 500 daily volatility. Results are discussed in Section 3.3.3 and show improved latent parameter estimation using gradient traing surrogates for small sample sizes.
 
 <img  src="Toy%20problems/4D/GARCH_mle_diff_nTrain100.png" width="340" align="left" />
 <img  src="Toy%20problems/4D/rolling_test_pred_t%2B5_nTrain100.png" width="340" align="left" />
