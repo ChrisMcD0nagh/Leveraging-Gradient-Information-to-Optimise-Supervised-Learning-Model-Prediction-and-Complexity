@@ -61,7 +61,7 @@ This repository contains example code that shows how surrogatae training and eva
 
 ### 4D GARCH problem
 
-[4D_generate_data.ipynb](Toy%20problems/4D/4D_generate_data.ipynb) generates data from the 4D process presented in Section 3.3.1 which is saved in [4d_data](Surrogate%20modelling/4D/4d_data).
+[4D_generate_data.ipynb](Toy%20problems/4D/4D_generate_data.ipynb) generates data from the 4D process presented in Section 3.3.1 which is saved in [4d_data](Toy%20problems/4D/4d_data).
 
 [4D_surrogate_AccTest_nTrain100_EXAMPLE.ipynb](Toy%20problems/4D/4D_surrogate_AccTest_nTrain100_EXAMPLE.ipynb) contains the code used to train and evaluate surrogate model accuracy, comparing the performance of neural networks trained with and without gradients. The results are discussed in Section 3.3 and show gradient trained surrogates are more accurate for small sample sizes and low model complexities. 
 
@@ -93,7 +93,9 @@ This repository contains example code that shows how surrogatae training and eva
 <br />
 
 ### 8D problem
-[8D_surrogate_AccTest_nTrain2500_EXAMPLE.ipynb](Toy%20problems/8D/8D_surrogate_AccTest_nTrain2500_EXAMPLE.ipynb) contains the code used to train and evaluate  model accuracy. THe 8D model is used in addition to the 2D and 4D models to support the delta-min metric discussed in Section 4.1
+[generate_data_8D.ipynb](Toy%20problems/8D/generate_data_8D.ipynb) generates data from the 8D process presented in Section 4.1.1 which is saved in [8d_data](Toy%20problems8D/8d_data).
+
+[8D_surrogate_AccTest_nTrain2500_EXAMPLE.ipynb](Toy%20problems/8D/8D_surrogate_AccTest_nTrain2500_EXAMPLE.ipynb) contains the code used to train and evaluate  model accuracy. The 8D model is used in addition to the 2D and 4D models to support the delta-min metric discussed in Section 4.1. 
 
 ## Tuning model complexity
 ### Determining complexity upper bound
